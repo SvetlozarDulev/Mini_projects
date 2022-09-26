@@ -5,8 +5,8 @@ Simple, old, but fun 2 player game.
 
 ## Simple rules:
 <br>:point_right: When you choose Scissors (Rock will beats you)
-<br>:point_right: When you choose Rock (Paper will beats you)\n
-:point_right: When you choose Paper (Scissors will beats you)
+<br>:point_right: When you choose Rock (Paper will beats you)
+<br>:point_right: When you choose Paper (Scissors will beats you)
 
 
 
