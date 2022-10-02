@@ -1,9 +1,27 @@
 import random
 from colorama import Fore, Back, Style
 
-rock = "Rock"
-paper = "Paper"
-scissors = "Scissors"
+rock = """
+___'--------
+         ___)
+        (____)
+        (___)
+---'____(__)"""
+
+paper = """
+___'--------
+         ___)___
+        ________)
+        _________)
+        ________)
+---'______)"""
+scissors = """
+___'--------
+         ____)__
+        ________)
+        _________)
+        ____)
+---'______)"""
 player_scores = 0
 computer_scores = 0
 
@@ -17,6 +35,7 @@ while True:
         player_move = scissors
     else:
         exit("Invalid input. Try again...")
+    print(f"The player choose: {player_move}")
     computer_random_number = random.randint(1, 3)
     computer_move = ""
     if computer_random_number == 1:
